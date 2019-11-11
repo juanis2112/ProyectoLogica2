@@ -18,13 +18,10 @@ from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 
 def dibujar_mapa(f):
     # Visualiza una coloración del mapa de una interpretación dada f
-    
     # Input:
     #   - f, una lista de literales
-    
     # Output:
     #   - archivo de imagen tablero1.png
-
     # Inicializa el plano que contiene la figura
     fig, axes = plt.subplots()
     axes.get_xaxis().set_visible(False)
